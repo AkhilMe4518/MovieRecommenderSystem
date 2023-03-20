@@ -2,7 +2,6 @@ import streamlit as st
 import pickle
 import pandas as pd
 import requests
-from st_clickable_images import clickable_images
 
 def getPoster(movie_id):
     url = "https://api.themoviedb.org/3/movie/{}?api_key=b1e10d8862abefe84f4bae03bf2c646b&language=en-US".format(
